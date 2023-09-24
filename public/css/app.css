@@ -1,0 +1,32 @@
+#nav-bar-logo {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Choose an appropriate font stack */
+    font-size: 25px; /* Adjust the font size to your preference */
+    font-weight: bold; /* You can use different font weights (e.g., normal, bold) */
+    color: #333; /* Choose a suitable text color */
+    letter-spacing: 2px; /* Adjust letter spacing for better readability */
+    height: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow for depth */
+}
+
+#welcome-page {
+    margin: 0;
+    padding: 0;
+    height: calc(100vh - 66px);; /* Make the body cover the entire viewport height */
+    background: linear-gradient(to bottom, #ffffff, #383838); /* Define your gradient colors */
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    overflow: hidden;
+}
+
+#center-text {
+    text-align: center;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional text shadow */
+}
