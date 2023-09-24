@@ -1,22 +1,22 @@
 #nav-bar-logo {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Choose an appropriate font stack */
-    font-size: 25px; /* Adjust the font size to your preference */
-    font-weight: bold; /* You can use different font weights (e.g., normal, bold) */
-    color: #333; /* Choose a suitable text color */
-    letter-spacing: 2px; /* Adjust letter spacing for better readability */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    letter-spacing: 2px;
     height: 50px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow for depth */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 #welcome-page {
     margin: 0;
     padding: 0;
-    height: calc(100vh - 66px);; /* Make the body cover the entire viewport height */
-    background: linear-gradient(to bottom, #ffffff, #383838); /* Define your gradient colors */
+    height: calc(100vh - 66px);
+    background: linear-gradient(to bottom, #ffffff, #383838);
     display: flex;
     box-sizing: border-box;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
 }
 
@@ -27,6 +27,43 @@
     font-weight: 700;
     line-height: 82px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #fff; /* Text color */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional text shadow */
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.login-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    display: none;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+}
+
+select.custom-select {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 100%; 
+    border-radius: 5px;
+}
+
+.field {
+    margin-top: 8px;
+}
+
+.star {
+    color: red;
 }
